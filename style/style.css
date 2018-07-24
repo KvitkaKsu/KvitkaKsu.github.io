@@ -1,3 +1,11 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 20px 20px;
+    position: fixed;
+}
 .main {
     height: 100vh;
     background-color: #192c38;
