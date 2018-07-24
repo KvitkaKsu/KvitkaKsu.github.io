@@ -9,12 +9,15 @@
 }
 .menu {
     display: flex;
+    justify-content: flex-end;
 }
 .menu_item {
     padding: 30px;
     font-size: 18px;
-    color: #ffffff:
-    
+    color: #ffffff;
+}
+.logo {
+    justify-content: flex-start;
 }
 .main {
     height: 100vh;
