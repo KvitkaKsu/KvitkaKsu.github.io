@@ -10,6 +10,12 @@
 .menu {
     display: flex;
 }
+.menu_item {
+    padding: 30px;
+    font-size: 18px;
+    color: #ffffff:
+    
+}
 .main {
     height: 100vh;
     background-color: #192c38;
