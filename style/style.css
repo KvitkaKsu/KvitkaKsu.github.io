@@ -54,6 +54,20 @@ p {
     padding: 20px 20px;
     position: fixed;
 }
+.btn {
+    line-height: 58px;
+    font-weight: 600;
+    background-color: #e45028;
+    border: 2px solid #e45028;
+    text-align: center;
+    min-width: 155px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 60px;
+}
+.btn_header {
+    margin-left: 20px;
+}
 .menu {
     display: flex;
     justify-content: flex-end;
@@ -63,10 +77,11 @@ p {
     font-size: 18px;
     color: #ffffff;
     font-family: "Ubuntu-Medium";
-    font-style: uppercase;
+    text-transform: uppercase;
 }
 .logo {
     justify-content: flex-start;
+    float: left;
 }
 .main {
     height: 100vh;
