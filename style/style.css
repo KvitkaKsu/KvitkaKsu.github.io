@@ -45,7 +45,10 @@ p {
     padding-right: 70px;
     position: relative;
     justify-content: end;
-    
+
+}
+.bl_2:nth-child(2) {
+    margin-left: auto;
 }
 .header {
     padding: 17px 0;
