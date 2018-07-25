@@ -159,6 +159,7 @@ li.menu_item::after {
 .main__content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     max-width: 1280px;
     margin: 0 auto;
     position: absolute;
@@ -174,14 +175,23 @@ li.menu_item::after {
     line-height: 1.154;
 }
 .caption_1 {
-    font-size: 32px;
+    font-size: 72px;
     color: #f9b43b;
     font-family: "Gagalin-Regular";
     text-transform: uppercase;
 }
 .caption_2 {
-    font-size: 32px;
+    font-size: 65px;
     color: #fff;
     font-family: "Lifehack Medium";
     
+}
+.main_img {
+    width: 50%;
+}
+.main_img img {
+    width: 100%;
+}
+.main_caption {
+    width: 50%;
 }
