@@ -43,7 +43,7 @@ p {
     padding-left: 70px;
     padding-right: 70px;
     position: relative;
-    width: 100%;
+    
 }
 .header {
     padding: 17px 0;
@@ -78,6 +78,7 @@ nav.menu {
     -ms-flex-pack: justify;
     justify-content: space-between;
     float: left;
+    margin-left: 300px;
 }
 .menu ul {
     display: flex;
