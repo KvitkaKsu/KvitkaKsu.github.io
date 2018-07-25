@@ -24,13 +24,13 @@
 }
 @font-face {
     font-family: "Gagalin-Regular"; 
-    src: url("/fonts/Gagalin/Gagalin-Regular.ttf") format("truetype"); 
+    src: url("/fonts/Gagalin/Gagalin-Regular.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 } 
 @font-face {
     font-family: "Lifehack Medium"; 
-    src: url("/fonts/Lifehack Medium.ttf") format("truetype"); 
+    src: url("/fonts/Lifehack Medium.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }
