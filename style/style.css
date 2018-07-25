@@ -171,3 +171,15 @@ li.menu_item::after {
     font-size: 1.625rem;
     line-height: 1.154;
 }
+.caption_1 {
+    font-size: 32px;
+    color: #f9b43b;
+    font-family: "Gagalin-Regular";
+    text-transform: uppercase;
+}
+.caption_2 {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Lifehack Medium";
+    
+}
