@@ -157,6 +157,8 @@ li.menu_item::after {
     opacity: 0.7;
 }
 .main__content {
+    display: flex;
+    justify-content: space-around;
     max-width: 1280px;
     margin: 0 auto;
     position: absolute;
