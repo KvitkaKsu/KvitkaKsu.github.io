@@ -53,8 +53,12 @@ p {
 .menu_item {
     padding: 30px;
     font-size: 18px;
+<<<<<<< HEAD
     color: #ffffff;
     font-family: "Ubuntu-Medium";
+=======
+    color: #0679af;
+>>>>>>> c55f951fc89827a509c27e06588c5cb1861e8780
 }
 .logo {
     justify-content: flex-start;
