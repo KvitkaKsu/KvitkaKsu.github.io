@@ -37,8 +37,13 @@
 p {
     font-family: "Ubuntu-Light";
 }
-.wrapper {
-    padding: 0px 100px 0px 100px;
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    width: 100%;
 }
 .header {
     display: flex;
@@ -58,6 +63,7 @@ p {
     font-size: 18px;
     color: #ffffff;
     font-family: "Ubuntu-Medium";
+    font-style: uppercase;
 }
 .logo {
     justify-content: flex-start;
