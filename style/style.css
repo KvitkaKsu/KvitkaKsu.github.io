@@ -38,6 +38,7 @@ p {
     font-family: "Ubuntu-Light";
 }
 .container {
+    display: flex;
     margin-right: 30px;
     margin-left: 30px;
     padding-left: 70px;
