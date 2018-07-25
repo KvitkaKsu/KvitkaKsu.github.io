@@ -137,6 +137,14 @@ li.menu_item::after {
     flex-direction: column;
     background-size: cover;
 }
+.second {
+    height: 100vh;
+    background: url(/images/second.jpg) no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
 /*.section__bg {
     object-fit: cover;
     position: absolute;
