@@ -1,3 +1,42 @@
+@font-face {
+    font-family: "Ubuntu-Light"; 
+    src: url("/fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "Ubuntu-Medium"; 
+    src: url("/fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "Ubuntu-B"; 
+    src: url("/fonts/Ubuntu/Ubuntu-B.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "Ubuntu-Regular"; 
+    src: url("/fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "Gagalin-Regular"; 
+    src: url("/fonts/Gagalin/Gagalin-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "Lifehack Medium"; 
+    src: url("/fonts/Lifehack Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+p {
+    font-family: "Ubuntu-Light";
+}
 .header {
     display: flex;
     top: 0;
@@ -15,6 +54,7 @@
     padding: 30px;
     font-size: 18px;
     color: #ffffff;
+    font-family: "Ubuntu-Medium";
 }
 .logo {
     justify-content: flex-start;
