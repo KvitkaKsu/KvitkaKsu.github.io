@@ -203,3 +203,6 @@ li.menu_item::after {
 .main_caption {
     width: 50%;
 }
+.the_best {
+    display: flex;
+}
