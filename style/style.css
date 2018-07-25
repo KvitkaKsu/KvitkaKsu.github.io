@@ -44,6 +44,7 @@ p {
     padding-left: 70px;
     padding-right: 70px;
     position: relative;
+    justify-content: end;
     
 }
 .header {
