@@ -116,10 +116,13 @@ li.menu_item {
 }
 .main {
     height: 100vh;
-    background-color: #192c38;
+    background: url(/images/background.jpg) no-repeat;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
 }
-.section__bg {
+/*.section__bg {
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -128,7 +131,7 @@ li.menu_item {
     height: 100%;
     -webkit-transition: all .4s;
     transition: all .4s;
-}
+}*/
 .main__overlay {
     position: absolute;
     top: 0;
