@@ -37,6 +37,9 @@
 p {
     font-family: "Ubuntu-Light";
 }
+.wrapper {
+    padding: 0px 100px 0px 100px;
+}
 .header {
     display: flex;
     top: 0;
@@ -53,12 +56,8 @@ p {
 .menu_item {
     padding: 30px;
     font-size: 18px;
-<<<<<<< HEAD
     color: #ffffff;
     font-family: "Ubuntu-Medium";
-=======
-    color: #0679af;
->>>>>>> c55f951fc89827a509c27e06588c5cb1861e8780
 }
 .logo {
     justify-content: flex-start;
