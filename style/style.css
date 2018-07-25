@@ -99,6 +99,7 @@ nav.menu {
     font-family: "Ubuntu-Medium"; 
     font-size: 13pt;
     border-radius: 10px;
+    padding: 13px;
 }
 .btn_header {
     margin-left: 30px;
@@ -122,7 +123,7 @@ li.menu_item::after {
     background-color: #fff; 
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-130%);
 }
 .brand {
     justify-content: flex-start;
