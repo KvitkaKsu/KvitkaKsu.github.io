@@ -46,13 +46,12 @@ p {
     width: 100%;
 }
 .header {
-    display: flex;
+    padding: 17px 0;
     top: 0;
     left: 0;
     right: 0;
-    background-color: transparent;
-    padding: 20px 20px;
-    position: fixed;
+    z-index: 40;
+    min-width: 768px;
 }
 .header__inner {
     display: -webkit-box;
@@ -105,6 +104,8 @@ nav.menu {
     text-decoration: none;
     font-family: "Ubuntu-Medium"; 
     font-size: 13pt;
+    padding: 13px;
+    border-radius: 10px;
 }
 .btn_header {
     margin-left: 30px;
