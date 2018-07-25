@@ -65,7 +65,7 @@ nav.menu {
     -ms-flex-pack: justify;
     justify-content: space-between;
     float: left;
-    margin-left: 300px;
+    
 }
 .menu ul {
     display: flex;
@@ -92,7 +92,6 @@ nav.menu {
     text-decoration: none;
     font-family: "Ubuntu-Medium"; 
     font-size: 13pt;
-    padding: 13px;
     border-radius: 10px;
 }
 .btn_header {
