@@ -109,6 +109,17 @@ li.menu_item {
     font-family: "Ubuntu-Medium";
     text-transform: uppercase;
 }
+li.menu_item::after {
+    content: ""; 
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #fff; 
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    transform: translateY(-50%);
+}
 .brand {
     justify-content: flex-start;
     float: left;
