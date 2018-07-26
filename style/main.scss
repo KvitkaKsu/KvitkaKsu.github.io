@@ -87,10 +87,12 @@ nav.menu {
     display: block;
     color: #ffffff;
     margin-left: 50px;
+
+    &:hover {
+        color: #e45028;
+    }
 }
-.menu a:hover {
-    color: #e45028;
-}
+
 .btn {
     line-height: 58px;
     background-color: #e45028;
@@ -185,6 +187,10 @@ li.menu_item::after
     color: #f9b43b;
     font-family: "Gagalin-Regular";
     text-transform: uppercase;
+
+    .another {
+        color: #2f3234;
+    }
 }
 .caption_2 {
     font-size: 65px;
