@@ -169,8 +169,9 @@ li.menu_item::after
   color: #f9b43b;
   font-family: "Gagalin-Regular";
   text-transform: uppercase; }
-  .caption_1 .another {
-    color: #2f3234; }
+
+.another {
+  color: #2f3234; }
 
 .caption_2 {
   font-size: 65px;
