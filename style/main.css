@@ -198,6 +198,7 @@ li.menu_item {
   .best h1 {
     font-size: 14,12pt; }
   .best img {
-    width: 150px; }
+    width: 150px;
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
