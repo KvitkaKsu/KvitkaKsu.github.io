@@ -73,8 +73,12 @@ nav.menu {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    float: left;
     
+    
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
 }
 .menu ul {
     display: flex;
@@ -111,10 +115,7 @@ nav.menu {
 .btn_header {
     margin-left: 30px;
 }
-.menu {
-    display: flex;
-    justify-content: flex-end;
-}
+
 li.menu_item {
     padding: 20px;
     font-size: 18px;
@@ -134,10 +135,9 @@ li.menu_item {
     }
 }
 
-li.menu_item::after 
 .brand {
     justify-content: flex-start;
-    float: left;
+    
 }
 .main {
     height: 100vh;

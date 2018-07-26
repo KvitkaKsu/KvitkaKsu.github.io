@@ -61,8 +61,11 @@ nav.menu {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  float: left; }
+  justify-content: space-between; }
+
+.menu {
+  display: flex;
+  justify-content: flex-end; }
 
 .menu ul {
   display: flex;
@@ -96,10 +99,6 @@ nav.menu {
 .btn_header {
   margin-left: 30px; }
 
-.menu {
-  display: flex;
-  justify-content: flex-end; }
-
 li.menu_item {
   padding: 20px;
   font-size: 18px;
@@ -116,10 +115,8 @@ li.menu_item {
     /*top: 50%;*/
     transform: translateY(-130%); }
 
-li.menu_item::after
 .brand {
-  justify-content: flex-start;
-  float: left; }
+  justify-content: flex-start; }
 
 .main {
   height: 100vh;
