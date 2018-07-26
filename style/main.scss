@@ -190,6 +190,8 @@ li.menu_item::after
 }
 .another {
     color: #2f3234;
+    display: block;
+    margin-top: 200px;
 }
 .caption_2 {
     font-size: 65px;
@@ -210,13 +212,15 @@ li.menu_item::after
 }
 .the_best {
     display: flex;
+    justify-content: space-evenly;
 }
 .best {
     padding: 40px;
     display: block;
     font-family: $font_one;
     width: 20%;
-        
+    text-align: center; 
+    
     h1 {
         font-size: 14,12pt;
     }
