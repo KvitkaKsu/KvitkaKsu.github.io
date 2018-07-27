@@ -187,12 +187,13 @@ li.menu_item {
 
 .center-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 .center-content__best {
     padding: 40px;
     display: block;
-    width: 20%;
+    width: 30%;
     text-align: center; 
     
     h1 {
@@ -203,6 +204,10 @@ li.menu_item {
     img {
         width: 150px;
         padding: 10px;
+    }
+
+    p {
+        color: #2f3234;
     }
 }
 .arrow-scroll {

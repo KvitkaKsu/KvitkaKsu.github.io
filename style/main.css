@@ -167,12 +167,13 @@ li.menu_item {
 
 .center-content {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-between;
+  align-items: center; }
 
 .center-content__best {
   padding: 40px;
   display: block;
-  width: 20%;
+  width: 30%;
   text-align: center; }
   .center-content__best h1 {
     font-size: 14,12pt;
@@ -180,6 +181,8 @@ li.menu_item {
   .center-content__best img {
     width: 150px;
     padding: 10px; }
+  .center-content__best p {
+    color: #2f3234; }
 
 .arrow-scroll {
   width: 50px;
