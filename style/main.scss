@@ -24,6 +24,13 @@ p {
     flex-direction: column;
     height: 100vh;
 }
+.flex-container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
 .header-menu:nth-child(2) {
     margin-left: auto;
 }
