@@ -4,7 +4,7 @@ $font_one: Lifehack Medium;
 /*end variables*/
 
 html {height:100%;
-    overflow: hidden}
+}
 p {
     font-family: "Ubuntu-Light";
 }
@@ -17,6 +17,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
 }
 .bl_2:nth-child(2) {
     margin-left: auto;
