@@ -15,6 +15,11 @@ p {
   flex-direction: column;
   height: 100vh; }
 
+.flex-container-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .header-menu:nth-child(2) {
   margin-left: auto; }
 
@@ -100,9 +105,7 @@ li.menu_item {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-size: cover;
-  justify-content: space-between;
-  align-items: center; }
+  background-size: cover; }
 
 .section-two {
   height: 100vh;
