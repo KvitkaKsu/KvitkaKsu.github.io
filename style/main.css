@@ -144,12 +144,17 @@ li.menu_item {
 .main-content__caption {
   width: 40%; }
 
+.another-caption {
+  font-size: 65px;
+  color: #fff;
+  font-family: "Lifehack Medium"; }
+
 .caption {
   font-size: 72px;
   color: #f9b43b;
   font-family: "Gagalin-Regular";
   text-transform: uppercase; }
-  .caption .another-caption {
+  .caption .caption_another {
     color: #2f3234;
     display: block;
     margin-top: 200px; }
