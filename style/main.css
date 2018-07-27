@@ -18,7 +18,9 @@ p {
 .flex-container-one {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; }
 
 .header-menu:nth-child(2) {
   margin-left: auto; }
