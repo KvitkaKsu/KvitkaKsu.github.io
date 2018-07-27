@@ -15,8 +15,6 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     height: 100vh;
 }
 .header-menu:nth-child(2) {
@@ -115,6 +113,8 @@ li.menu_item {
     display: flex;
     flex-direction: column;
     background-size: cover;
+    justify-content: space-between;
+    align-items: center;
 }
 .section-two {
     height: 100vh;
