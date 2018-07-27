@@ -3,6 +3,8 @@
 $font_one: Lifehack Medium;
 /*end variables*/
 
+html {height:100%;
+    overflow: hidden}
 p {
     font-family: "Ubuntu-Light";
 }
@@ -13,7 +15,8 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .bl_2:nth-child(2) {
     margin-left: auto;
