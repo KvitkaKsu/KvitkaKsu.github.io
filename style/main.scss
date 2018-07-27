@@ -165,12 +165,14 @@ li.menu_item {
     color: #f9b43b;
     font-family: "Gagalin-Regular";
     text-transform: uppercase;
+
+    .another-caption {
+        color: #2f3234;
+        display: block;
+        margin-top: 200px;
+    }
 }
-.another-caption {
-    color: #2f3234;
-    display: block;
-    margin-top: 200px;
-}
+
 .center-content {
     display: flex;
     justify-content: space-evenly;
