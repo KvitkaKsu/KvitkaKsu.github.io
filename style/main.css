@@ -156,8 +156,7 @@ li.menu_item {
   text-transform: uppercase; }
   .caption .caption_another {
     color: #2f3234;
-    display: block;
-    margin-top: 200px; }
+    display: block; }
 
 .center-content {
   display: flex;
