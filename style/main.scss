@@ -149,11 +149,6 @@ li.menu_item {
     font-size: 1.625rem;
     line-height: 1.154;
 }
-.caption_another {
-    color: #2f3234;
-    display: block;
-    margin-top: 200px;
-}
 .main-content__img {
     width: 60%;
     padding-right: 20px;
@@ -165,17 +160,16 @@ li.menu_item {
 .main-content__caption {
     width: 40%;
 }
-.another-caption {
-    font-size: 65px;
-    color: #fff;
-    font-family: "Lifehack Medium";
-    
-}
 .caption {
     font-size: 72px;
     color: #f9b43b;
     font-family: "Gagalin-Regular";
     text-transform: uppercase;
+}
+.another-caption {
+    color: #2f3234;
+    display: block;
+    margin-top: 200px;
 }
 .center-content {
     display: flex;
