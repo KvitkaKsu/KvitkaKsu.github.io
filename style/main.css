@@ -4,7 +4,7 @@ html {
   height: 100%; }
 
 p {
-  font-family: "Ubuntu-Light"; }
+  font-family: "$main_font"; }
 
 .container {
   display: flex;
@@ -80,7 +80,7 @@ nav.menu {
   text-transform: uppercase;
   height: 60px;
   text-decoration: none;
-  font-family: "Ubuntu-Medium";
+  font-family: Ubuntu-Medium;
   font-size: 13pt;
   border-radius: 10px;
   padding: 13px; }
@@ -92,7 +92,7 @@ li.menu_item {
   padding: 15px;
   font-size: 18px;
   color: #ffffff;
-  font-family: "Ubuntu-Medium";
+  font-family: Ubuntu-Medium;
   text-transform: uppercase; }
   li.menu_item::after {
     content: "";
@@ -154,12 +154,12 @@ li.menu_item {
 .another-caption {
   font-size: 65px;
   color: #fff;
-  font-family: "Lifehack Medium"; }
+  font-family: Lifehack Medium; }
 
 .caption {
   font-size: 72px;
   color: #f9b43b;
-  font-family: "Gagalin-Regular";
+  font-family: Gagalin-Regular;
   text-transform: uppercase; }
   .caption .caption_another {
     color: #2f3234;
