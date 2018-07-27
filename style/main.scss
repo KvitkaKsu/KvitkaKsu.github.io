@@ -19,7 +19,7 @@ p {
     align-items: center;
     height: 100vh;
 }
-.bl_2:nth-child(2) {
+.header-menu:nth-child(2) {
     margin-left: auto;
 }
 .header {
@@ -56,7 +56,7 @@ nav.menu {
     text-decoration: none;
     display: block;
     color: #ffffff;
-    margin-left: 50px;
+    margin-left: 40px;
 
     &:hover {
         color: #e45028;
@@ -83,7 +83,7 @@ nav.menu {
 }
 
 li.menu_item {
-    padding: 20px;
+    padding: 15px;
     font-size: 18px;
     color: #ffffff;
     font-family: "Ubuntu-Medium";
@@ -105,7 +105,10 @@ li.menu_item {
     justify-content: flex-start;
     
 }
-.main {
+
+/*section css*/
+
+.section-one {
     height: 100vh;
     background: url(/images/background.jpg) no-repeat;
     position: relative;
@@ -113,7 +116,7 @@ li.menu_item {
     flex-direction: column;
     background-size: cover;
 }
-.second {
+.section-two {
     height: 100vh;
     background: url(/images/second.jpg) no-repeat;
     position: relative;
@@ -121,7 +124,10 @@ li.menu_item {
     flex-direction: column;
     background-size: cover;
 }
-.main__content {
+
+/*end section css*/
+
+.main-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -138,46 +144,46 @@ li.menu_item {
     font-size: 1.625rem;
     line-height: 1.154;
 }
-.caption_1 {
-    font-size: 72px;
-    color: #f9b43b;
-    font-family: "Gagalin-Regular";
-    text-transform: uppercase;
-}
-.another {
+.caption_another {
     color: #2f3234;
     display: block;
     margin-top: 200px;
 }
-.caption_2 {
+.main-content__img {
+    width: 45%;
+ 
+    .main-content__img img {
+        width: 100%;
+    }
+}
+.main-content__caption {
+    width: 50%;
+}
+.another-caption {
     font-size: 65px;
     color: #fff;
     font-family: "Lifehack Medium";
     
 }
-.main_img {
-    width: 45%;
- 
-    .main_img img {
-        width: 100%;
-    }
+.caption {
+    font-size: 72px;
+    color: #f9b43b;
+    font-family: "Gagalin-Regular";
+    text-transform: uppercase;
 }
-.main_caption {
-    width: 50%;
-}
-.the_best {
+.center-content {
     display: flex;
     justify-content: space-evenly;
 }
-.best {
+.center-content__best {
     padding: 40px;
     display: block;
-    font-family: $font_one;
     width: 20%;
     text-align: center; 
     
     h1 {
         font-size: 14,12pt;
+        font-family: $font_one;
     }
 
     img {
