@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,YAAY;AACJ,8BAAsB;AACtB,+BAAuB;AACvB,mCAA2B",
+"mappings": "AAAA,YAAY;AACJ,8BAAsB;AACtB,+BAAuB;AACvB,mCAA2B;AAC3B,iCAAyB",
 "sources": ["common.scss"],
 "names": [],
 "file": "common.css"
