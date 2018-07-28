@@ -1,3 +1,38 @@
+.main {
+  background: url(/images/background.jpg) center center no-repeat;
+  background-size: cover; }
 
+.container__main {
+  justify-content: flex-start; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-menu {
+  display: flex; }
+
+.nav-list {
+  display: flex;
+  align-items: center; }
+
+.nav-item {
+  display: flex;
+  align-items: center; }
+  .nav-item:first-child:before {
+    display: none; }
+  .nav-item:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    margin: 0 10px; }
+
+.nav-link {
+  color: #fff;
+  text-decoration: none; }
 
 /*# sourceMappingURL=section-main.css.map */
