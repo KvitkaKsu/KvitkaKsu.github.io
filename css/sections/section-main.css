@@ -35,8 +35,10 @@
     margin: 0 10px; }
 
 .nav-link {
+  font-size: 18px;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: Ubuntu-Medium; }
 
 .btn {
   padding: 13px;
@@ -44,5 +46,23 @@
   background-color: #e35028;
   border-radius: 7px;
   text-decoration: none; }
+
+.caption {
+  font-size: 72px;
+  color: #000;
+  margin-bottom: 10px;
+  font-family: Gagalin-Regular; }
+  .caption--color_yellow {
+    color: #f9a644; }
+
+.another-caption {
+  font-family: Lifehack Medium;
+  font-size: 65px;
+  color: #fff; }
+
+.one__content {
+  display: flex;
+  align-items: center;
+  flex: 0.8; }
 
 /*# sourceMappingURL=section-main.css.map */

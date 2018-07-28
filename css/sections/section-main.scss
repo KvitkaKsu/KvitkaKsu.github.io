@@ -1,4 +1,8 @@
+$yellow: #f9a644;
 $red: #e35028;
+$caption_font: Gagalin-Regular;
+$menu_font: Ubuntu-Medium;
+$another_caption_font: Lifehack Medium;
 
 .main {
     background: url(/images/background.jpg) center center no-repeat;
@@ -51,8 +55,10 @@ $red: #e35028;
 }
 
 .nav-link {
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
+    font-family: $menu_font;
 }
 
 .btn {
@@ -61,4 +67,29 @@ $red: #e35028;
     background-color: $red;
     border-radius: 7px;
     text-decoration: none;
+}
+
+.caption {
+    font-size: 72px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: $caption_font;
+
+    &--color {
+        &_yellow {
+            color: $yellow;
+        }
+    }
+}
+
+.another-caption {
+    font-family: $another_caption_font;
+    font-size: 65px;
+    color: #fff;
+}
+
+.one__content {
+    display: flex;
+    align-items: center;
+    flex: 0.8;
 }
