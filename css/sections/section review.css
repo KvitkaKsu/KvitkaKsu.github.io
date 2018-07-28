@@ -1,3 +1,34 @@
+.list-review {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap; }
 
+.review-item {
+  width: 25%;
+  height: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: grayscale(100%); }
+  .review-item:hover .reviev-text-hover {
+    opacity: 1; }
+
+.reviev-text-hover {
+  color: #fff;
+  font-family: Ubuntu-Light;
+  position: absolute;
+  background: rgba(69, 69, 69, 0.7);
+  opacity: 0;
+  transition: opacity .3s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .reviev-text-hover strong {
+    padding: 25px;
+    line-height: 4.5; }
+  .reviev-text-hover p {
+    padding: 25px; }
 
 /*# sourceMappingURL=section%20review.css.map */

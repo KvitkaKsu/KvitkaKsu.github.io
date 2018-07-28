@@ -1,0 +1,47 @@
+$main_font: Ubuntu-Light;
+
+.list-review {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.review-item {
+    width: 25%;
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    filter: grayscale(100%); 
+
+    &:hover {
+        .reviev-text-hover {
+          opacity: 1;
+        }
+      }
+} 
+
+
+
+.reviev-text-hover {
+    color: #fff;
+    font-family: $main_font;
+    position: absolute;
+    background: rgba(#454545, .7);
+    opacity: 0;
+    transition: opacity .3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    strong {
+        padding: 25px;
+        line-height: 4.5;
+    }
+
+    p {
+        padding: 25px;
+    }
+}
