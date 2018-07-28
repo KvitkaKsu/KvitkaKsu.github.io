@@ -80,6 +80,12 @@ $another_caption_font: Lifehack Medium;
             color: $yellow;
         }
     }
+
+    &--align {
+        &_center {
+            text-align: center;
+        }
+    }
 }
 
 .another-caption {

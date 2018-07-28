@@ -54,6 +54,8 @@
   font-family: Gagalin-Regular; }
   .caption--color_yellow {
     color: #f9a644; }
+  .caption--align_center {
+    text-align: center; }
 
 .another-caption {
   font-family: Lifehack Medium;
