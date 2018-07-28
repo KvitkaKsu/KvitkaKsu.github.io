@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.nav {
+    margin-right: 20px;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -46,5 +50,13 @@
 
 .nav-link {
     color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 13px;
+    color: #fff;
+    background-color: $red;
+    border-radius: 7px;
     text-decoration: none;
 }
