@@ -14,11 +14,11 @@ body {
 
 .container {
     margin: 0 auto;
-    position: relative;
-    max-width: 940px;
-    width: 95%;
+    width: 940px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .wrapper {
