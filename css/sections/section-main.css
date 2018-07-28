@@ -11,7 +11,8 @@
   justify-content: space-between; }
 
 .header-menu {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .nav {
   margin-right: 20px; }
@@ -45,7 +46,8 @@
   color: #fff;
   background-color: #e35028;
   border-radius: 7px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: Ubuntu-Medium; }
 
 .caption {
   font-size: 72px;
@@ -66,5 +68,10 @@
   display: flex;
   align-items: center;
   flex: 0.8; }
+
+.arrow-scroll {
+  align-self: center; }
+  .arrow-scroll img {
+    width: 50px; }
 
 /*# sourceMappingURL=section-main.css.map */
