@@ -1,7 +1,10 @@
 /*base css*/
-@import url("/style/main.css");
-@import url("/style/fonts.css");
-@import url("/style/normalize.css");
-@import url("/style/layouts.css");
+@import url("/css/main.css");
+@import url("/css/fonts.css");
+@import url("/css/normalize.css");
+@import url("/css/layouts.css");
+/*sections*/
+@import url("/css/section-main.css");
+/*end sections*/
 
 /*# sourceMappingURL=common.css.map */
