@@ -56,4 +56,22 @@ input[type="button"] {
   border: none;
   cursor: pointer; }
 
+.fixed-nav-navigation {
+  position: fixed;
+  right: 0;
+  bottom: 30%;
+  padding: 0 10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+li.fixed-nav-item:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  margin: 15px; }
+
 /*# sourceMappingURL=layouts.css.map */
