@@ -4,7 +4,7 @@ html, body {
   height: 100%; }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,5 +51,9 @@ footer {
 .section {
   height: 100vh;
   min-height: 650px; }
+
+input[type="button"] {
+  border: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=layouts.css.map */

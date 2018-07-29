@@ -31,4 +31,19 @@
   .reviev-text-hover p {
     padding: 25px; }
 
+.form-btn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center; }
+  .form-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Ubuntu-Light;
+    margin-left: 20; }
+
+.btn-review {
+  margin-left: 25px; }
+  .btn-review:hover {
+    background-color: #1f2122; }
+
 /*# sourceMappingURL=section%20review.css.map */

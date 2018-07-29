@@ -42,12 +42,13 @@
   font-family: Ubuntu-Medium; }
 
 .btn {
-  padding: 13px;
+  padding: 13px 16px;
   color: #fff;
   background-color: #e35028;
   border-radius: 7px;
   text-decoration: none;
-  font-family: Ubuntu-Medium; }
+  font-family: Ubuntu-Medium;
+  text-transform: uppercase; }
 
 .caption {
   font-size: 72px;

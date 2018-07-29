@@ -45,3 +45,24 @@ $main_font: Ubuntu-Light;
         padding: 25px;
     }
 }
+
+.form-btn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-family: $main_font;
+        margin-left: 20;
+    }
+}
+
+.btn-review {
+    margin-left: 25px;
+
+    &:hover {
+        background-color: #1f2122;
+    }
+}

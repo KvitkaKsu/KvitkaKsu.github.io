@@ -63,12 +63,13 @@ $another_caption_font: Lifehack Medium;
 }
 
 .btn {
-    padding: 13px;
+    padding: 13px 16px;
     color: #fff;
     background-color: $red;
     border-radius: 7px;
     text-decoration: none;
     font-family: $menu_font;
+    text-transform: uppercase;
 }
 
 .caption {
