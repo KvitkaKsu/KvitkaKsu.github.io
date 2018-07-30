@@ -1,11 +1,17 @@
 .team {
   background: url(/images/bg_team.jpg) center center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end; }
+
+.team-container {
+  height: 100vh;
+  width: 50%; }
 
 .team-profile {
   position: absolute;
   width: 50%;
-  right: 0;
+  height: 100vh;
   background-color: rgba(26, 27, 28, 0.81); }
 
 /*# sourceMappingURL=section-team.css.map */
