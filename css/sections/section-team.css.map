@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACF,UAAU,EAAE,gDAAgD;EAC5D,eAAe,EAAE,KAAK",
+"sources": ["section-team.scss"],
+"names": [],
+"file": "section-team.css"
+}
