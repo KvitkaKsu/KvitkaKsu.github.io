@@ -1,12 +1,12 @@
-/*base css*/
-@import url('/css/fonts.scss');
-@import url('/css/normalize.scss');
-@import url('/css/layouts.scss');
+@import '/css/fonts.scss';
+@import '/css/normalize.scss';
+@import '/css/layouts.scss';
 
-/*sections*/
-@import url('/css/sections/section-main.scss');
-@import url('/css/sections/section-the-best.scss');
-@import url('/css/sections/section review.scss');
-@import url('/css/sections/section-order.scss');
-@import url('/css/sections/section-team.scss');
-/*end sections*/
+
+@import '/css/sections/section-main.scss';
+@import '/css/sections/section-the-best.scss';
+@import '/css/sections/section review.scss';
+@import '/css/sections/section-order.scss';
+@import '/css/sections/section-team.scss';
+
+
