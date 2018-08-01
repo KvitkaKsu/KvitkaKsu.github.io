@@ -1,52 +1,532 @@
-/*
-Error: File to import not found or unreadable: /css/fonts.scss.
-       Load path: C:/Users/Ksenya/Documents/GitHub/KvitkaKsu.github.io/css
-        on line 1 of C:\Users\Ksenya\Documents\GitHub\KvitkaKsu.github.io\css\common.scss
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("/fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("/fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Ubuntu-B";
+  src: url("/fonts/Ubuntu/Ubuntu-B.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("/fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Gagalin-Regular";
+  src: url("/fonts/Gagalin/Gagalin-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Lifehack Medium";
+  src: url("/fonts/Lifehack Medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
-1: @import '/css/fonts.scss';
-2: @import '/css/normalize.scss';
-3: @import '/css/layouts.scss';
-4: 
-5: 
-6: @import '/css/sections/section-main.scss';
+body {
+  margin: 0; }
 
-Backtrace:
-C:\Users\Ksenya\Documents\GitHub\KvitkaKsu.github.io\css\common.scss:1
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: /css/fonts.scss.\A        Load path: C:/Users/Ksenya/Documents/GitHub/KvitkaKsu.github.io/css\A         on line 1 of C:\Users\Ksenya\Documents\GitHub\KvitkaKsu.github.io\css\common.scss\A \A 1: @import '/css/fonts.scss';\A 2: @import '/css/normalize.scss';\A 3: @import '/css/layouts.scss';\A 4: \A 5: \A 6: @import '/css/sections/section-main.scss';"; }
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+a {
+  background-color: transparent; }
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+b,
+strong {
+  font-weight: bolder; }
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+img {
+  border-style: none; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+progress {
+  vertical-align: baseline; }
+
+textarea {
+  overflow: auto; }
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+details {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+/*variables*/
+/*end variables*/
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #000000; }
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+footer {
+  position: relative;
+  width: 100%; }
+
+.section {
+  height: 100vh;
+  min-height: 650px; }
+
+input[type="button"] {
+  border: none;
+  cursor: pointer; }
+
+button {
+  border: none; }
+
+.fixed-nav-navigation {
+  position: fixed;
+  right: 0;
+  bottom: 30%;
+  padding: 0 10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+li.fixed-nav-item:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  margin: 15px; }
+
+.main {
+  background: url(/images/background.jpg) center center no-repeat;
+  background-size: cover; }
+
+.container__main {
+  justify-content: flex-start; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-menu {
+  display: flex;
+  align-items: center; }
+
+.nav {
+  margin-right: 20px; }
+
+.nav-list {
+  display: flex;
+  align-items: center; }
+
+.nav-item {
+  display: flex;
+  align-items: center; }
+  .nav-item:first-child:before {
+    display: none; }
+  .nav-item:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    margin: 0 10px; }
+
+.nav-link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Ubuntu-Medium;
+  text-transform: uppercase; }
+
+.btn {
+  padding: 13px 16px;
+  color: #fff;
+  background-color: #e35028;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: Ubuntu-Medium;
+  text-transform: uppercase; }
+
+.caption {
+  font-size: 72px;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: Gagalin-Regular; }
+  .caption--color_yellow {
+    color: #f9a644; }
+  .caption--align_center {
+    text-align: center; }
+
+.another-caption {
+  font-family: Lifehack Medium;
+  font-size: 65px;
+  color: #fff; }
+
+.one__content {
+  display: flex;
+  align-items: center;
+  flex: 0.8; }
+
+.one__content__img {
+  background: url(/images/burger_main.png) center center no-repeat;
+  width: 100%;
+  height: 424px; }
+
+.one__content__caption {
+  width: 100%; }
+
+.arrow-scroll {
+  align-self: center; }
+  .arrow-scroll img {
+    width: 50px; }
+
+.the-best {
+  background: url(/images/second.jpg) center center no-repeat;
+  background-size: cover; }
+
+.the-best__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+
+.the-best__content__item {
+  padding-top: 120px;
+  margin-right: 3.65%;
+  -ms-flex-preferred-size: 280px;
+  flex-basis: 280px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+  .the-best__content__item:nth-child(1) {
+    background-image: url(/images/meat.svg);
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .the-best__content__item:nth-child(2) {
+    background-image: url(/images/hand.svg);
+    background-repeat: no-repeat;
+    background-position: top center; }
+  .the-best__content__item:nth-child(3) {
+    background-image: url(/images/natural.svg);
+    background-repeat: no-repeat;
+    background-position: top center; }
+
+.the-best__img img {
+  width: 40%;
+  padding: 0px 80px 0px 80px; }
+
+.the-best__title {
+  text-align: center;
+  font-family: Lifehack Medium; }
+
+.the-best__text {
+  text-align: center;
+  font-family: Ubuntu-Light;
+  font-size: 14px; }
+
+.list-review {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap; }
+
+.review-item {
+  width: 25%;
+  height: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: grayscale(100%); }
+  .review-item:hover .reviev-text-hover {
+    opacity: 1; }
+
+.reviev-text-hover {
+  color: #fff;
+  font-family: Ubuntu-Light;
+  position: absolute;
+  background: rgba(69, 69, 69, 0.7);
+  opacity: 0;
+  transition: opacity .3s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .reviev-text-hover span {
+    font-weight: bold;
+    padding: 25px;
+    line-height: 4.5; }
+  .reviev-text-hover p {
+    padding: 25px; }
+
+.form-btn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center; }
+  .form-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Ubuntu-Light;
+    margin-left: 20; }
+
+.btn-review {
+  margin-left: 25px; }
+  .btn-review:hover {
+    background-color: #1f2122; }
+
+.order {
+  background: url("/images/bg_order.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.form__elem {
+  display: flex;
+  flex-wrap: wrap; }
+
+.form__content {
+  width: 47%;
+  padding: 10px; }
+
+.form__content__comm {
+  width: 47%;
+  padding: 10px; }
+
+.form__content__comm input.form__input {
+  height: 15%; }
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-family: Ubuntu-Light;
+  margin-top: 10px; }
+
+.checkbox-margin {
+  margin-right: 30px; }
+
+.form__block-title {
+  color: #fff;
+  font-family: Ubuntu-Light; }
+
+.form__input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%; }
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px; }
+
+.form__block {
+  flex: 1;
+  margin-right: 20px; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.team {
+  background: url(/images/bg_team.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end; }
+
+.team-container {
+  width: 50%;
+  height: 100vh;
+  background-color: rgba(26, 27, 28, 0.81); }
+
+.team-profile {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/*# sourceMappingURL=common.css.map */

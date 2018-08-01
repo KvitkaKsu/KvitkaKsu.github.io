@@ -79,6 +79,9 @@ input[type="button"] {
     cursor: pointer
 }
 
+button {
+    border: none;
+}
 .fixed-nav-navigation {
     position: fixed;
     right: 0;

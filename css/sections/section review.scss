@@ -36,7 +36,8 @@ $main_font: Ubuntu-Light;
     right: 0;
     bottom: 0;
 
-    strong {
+    span {
+        font-weight: bold;
         padding: 25px;
         line-height: 4.5;
     }

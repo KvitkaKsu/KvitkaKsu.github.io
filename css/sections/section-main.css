@@ -1,0 +1,87 @@
+.main {
+  background: url(/images/background.jpg) center center no-repeat;
+  background-size: cover; }
+
+.container__main {
+  justify-content: flex-start; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-menu {
+  display: flex;
+  align-items: center; }
+
+.nav {
+  margin-right: 20px; }
+
+.nav-list {
+  display: flex;
+  align-items: center; }
+
+.nav-item {
+  display: flex;
+  align-items: center; }
+  .nav-item:first-child:before {
+    display: none; }
+  .nav-item:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    margin: 0 10px; }
+
+.nav-link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Ubuntu-Medium;
+  text-transform: uppercase; }
+
+.btn {
+  padding: 13px 16px;
+  color: #fff;
+  background-color: #e35028;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: Ubuntu-Medium;
+  text-transform: uppercase; }
+
+.caption {
+  font-size: 72px;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: Gagalin-Regular; }
+  .caption--color_yellow {
+    color: #f9a644; }
+  .caption--align_center {
+    text-align: center; }
+
+.another-caption {
+  font-family: Lifehack Medium;
+  font-size: 65px;
+  color: #fff; }
+
+.one__content {
+  display: flex;
+  align-items: center;
+  flex: 0.8; }
+
+.one__content__img {
+  background: url(/images/burger_main.png) center center no-repeat;
+  width: 100%;
+  height: 424px; }
+
+.one__content__caption {
+  width: 100%; }
+
+.arrow-scroll {
+  align-self: center; }
+  .arrow-scroll img {
+    width: 50px; }
+
+/*# sourceMappingURL=section-main.css.map */

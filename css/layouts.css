@@ -1,0 +1,80 @@
+/*variables*/
+/*end variables*/
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #000000; }
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+footer {
+  position: relative;
+  width: 100%; }
+
+.section {
+  height: 100vh;
+  min-height: 650px; }
+
+input[type="button"] {
+  border: none;
+  cursor: pointer; }
+
+button {
+  border: none; }
+
+.fixed-nav-navigation {
+  position: fixed;
+  right: 0;
+  bottom: 30%;
+  padding: 0 10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+li.fixed-nav-item:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  margin: 15px; }
+
+/*# sourceMappingURL=layouts.css.map */
