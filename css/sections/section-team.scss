@@ -1,21 +1,68 @@
+$caption_font: Gagalin-Regular;
+
 .team {
-    background: url(/images/bg_team.jpg) center center no-repeat;
+    background: url('/images/bg_team.jpg') center center no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.team-container {
+    position: relative;
+  }
+  
+  .team-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
     width: 50%;
-    height: 100vh;
-    background-color: rgba(26, 27, 28, 0.81);
-}
-
-.team-profile {
-    width: 80%;
-    height: 100vh;
-    margin: 0 auto;
+    background: rgba(#2f3234, .93);
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .team-acco__trigger {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: $caption_font;
+    text-decoration: none;
+  
+    &:before {
+      content: "";
+      height: 0;
+      width: 0;
+      border: 9px solid transparent;
+      border-top-color: $yellow;
+      border-bottom-width: 0px;
+  
+    }
+  }
+
+  li.team-acco__item {
+    padding-top: 40px;
 }
+  
+  .team-acco__content {
+    display: flex;
+  }
+  
+  .team-acco__text {
+    color: #fff;
+  }
+  
+  .team-acco__content {
+    display: none;
+  }
+  
+  .team-acco__item_active {
+    .team-acco__trigger {
+      color: $yellow;
+  
+      &:before {
+        transform: rotate(-180deg);
+      }
+    }
+  
+    .team-acco__content {
+      display: block;
+    }
+  }
