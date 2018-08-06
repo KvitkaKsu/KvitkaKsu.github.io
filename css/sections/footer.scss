@@ -1,3 +1,11 @@
+$menu_font: Ubuntu-Medium;
+$main_font: Ubuntu-Light;
+
+.contact {
+  background: url('/images/background/map.jpg') center center no-repeat;
+  background-size: cover;
+}
+
 .footer {
     background: url('/images/background/bg_footer.jpg') center bottom no-repeat;
     background-size: cover;
@@ -6,4 +14,29 @@
     left: 0;
     right: 0;
     padding: 10px 0;
-  }
+    height: 60px;
+}
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__item {
+  width: 50%;
+}
+
+.footer__address {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: $main_font;
+  padding-bottom: 10px;
+}
+
+.footer__phone {
+  color: $red;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: $menu_font;
+}

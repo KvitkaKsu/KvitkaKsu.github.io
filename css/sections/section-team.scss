@@ -18,8 +18,13 @@ $main_font: Ubuntu-Light;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 200px;
   }
+
+  .team-profile {
+    margin: 0 auto;
+    max-width: 25.75rem;
+}
   
   .team-acco__trigger {
     color: #fff;
