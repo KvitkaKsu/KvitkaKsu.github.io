@@ -10,6 +10,15 @@ $red: #e35028;
 
 /*end variables*/
 
+/*mics*/
+@mixin cover(){
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/*end mics*/
+
 html, body {
     height: 100%;
 }

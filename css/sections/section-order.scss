@@ -1,7 +1,7 @@
 $main_font: Ubuntu-Light;
 
 .order {
-    background: url('/images/bg_order.jpg') center center no-repeat;
+    background: url('/images/background/bg_order.jpg') center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -42,6 +42,7 @@ $main_font: Ubuntu-Light;
 .form__block-title {
     color: #fff;
     font-family: $main_font;
+    padding-bottom: 8px;
 }
   
 .form__input {

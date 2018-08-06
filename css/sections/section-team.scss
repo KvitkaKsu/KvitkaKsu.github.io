@@ -1,7 +1,9 @@
 $caption_font: Gagalin-Regular;
+$menu_font: Ubuntu-Medium;
+$main_font: Ubuntu-Light;
 
 .team {
-    background: url('/images/bg_team.jpg') center center no-repeat;
+    background: url('/images/background/bg_team.jpg') center center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -33,7 +35,7 @@ $caption_font: Gagalin-Regular;
       border: 9px solid transparent;
       border-top-color: $yellow;
       border-bottom-width: 0px;
-  
+      margin-right: 10px; 
     }
   }
 
@@ -43,10 +45,30 @@ $caption_font: Gagalin-Regular;
   
   .team-acco__content {
     display: flex;
+    padding: 20px;
+  }
+
+  .team-acco__pic {
+    float: left;
+
+    &-img {
+      border-radius: 50%;
+    }
   }
   
   .team-acco__text {
     color: #fff;
+    padding: 20px;
+    margin-left: 120px;
+
+    &-title {
+      font-family: $menu_font;
+      padding-bottom: 10px;
+    }
+
+    &-content {
+      font-family: $main_font;
+    }
   }
   
   .team-acco__content {
@@ -64,5 +86,6 @@ $caption_font: Gagalin-Regular;
   
     .team-acco__content {
       display: block;
+      padding: 20px;
     }
   }

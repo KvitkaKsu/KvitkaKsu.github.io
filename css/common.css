@@ -203,6 +203,8 @@ template {
 
 /*variables*/
 /*end variables*/
+/*mics*/
+/*end mics*/
 html, body {
   height: 100%; }
 
@@ -281,7 +283,7 @@ li.fixed-nav-item:before {
   margin: 15px; }
 
 .main {
-  background: url(/images/background.jpg) center center no-repeat;
+  background: url(/images/background/background.jpg) center center no-repeat;
   background-size: cover; }
 
 .container__main {
@@ -340,6 +342,8 @@ li.fixed-nav-item:before {
   font-family: Gagalin-Regular; }
   .caption--color_yellow {
     color: #f9a644; }
+  .caption--color_white {
+    color: white; }
   .caption--align_center {
     text-align: center; }
 
@@ -367,7 +371,7 @@ li.fixed-nav-item:before {
     width: 50px; }
 
 .the-best {
-  background: url(/images/second.jpg) center center no-repeat;
+  background: url(/images/background/second.jpg) center center no-repeat;
   background-size: cover; }
 
 .the-best__content {
@@ -459,7 +463,7 @@ li.fixed-nav-item:before {
     background-color: #1f2122; }
 
 .order {
-  background: url("/images/bg_order.jpg") center center no-repeat;
+  background: url("/images/background/bg_order.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -492,7 +496,8 @@ li.fixed-nav-item:before {
 
 .form__block-title {
   color: #fff;
-  font-family: Ubuntu-Light; }
+  font-family: Ubuntu-Light;
+  padding-bottom: 8px; }
 
 .form__input {
   border: none;
@@ -511,7 +516,7 @@ li.fixed-nav-item:before {
     margin-right: 0; }
 
 .team {
-  background: url("/images/bg_team.jpg") center center no-repeat;
+  background: url("/images/background/bg_team.jpg") center center no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -539,16 +544,30 @@ li.fixed-nav-item:before {
     width: 0;
     border: 9px solid transparent;
     border-top-color: #f9a644;
-    border-bottom-width: 0px; }
+    border-bottom-width: 0px;
+    margin-right: 10px; }
 
 li.team-acco__item {
   padding-top: 40px; }
 
 .team-acco__content {
-  display: flex; }
+  display: flex;
+  padding: 20px; }
+
+.team-acco__pic {
+  float: left; }
+  .team-acco__pic-img {
+    border-radius: 50%; }
 
 .team-acco__text {
-  color: #fff; }
+  color: #fff;
+  padding: 20px;
+  margin-left: 120px; }
+  .team-acco__text-title {
+    font-family: Ubuntu-Medium;
+    padding-bottom: 10px; }
+  .team-acco__text-content {
+    font-family: Ubuntu-Light; }
 
 .team-acco__content {
   display: none; }
@@ -558,6 +577,69 @@ li.team-acco__item {
   .team-acco__item_active .team-acco__trigger:before {
     transform: rotate(-180deg); }
 .team-acco__item_active .team-acco__content {
-  display: block; }
+  display: block;
+  padding: 20px; }
+
+.menu {
+  background: url(/images/background/menu_background.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.caption--position_top {
+  position: relative;
+  top: 10%;
+  left: 10%; }
+
+.menu-list {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex; }
+
+.menu-list_trigger {
+  width: 100px;
+  display: block;
+  height: 100%;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  position: relative; }
+
+.menu-list_trigger-text {
+  font-size: 50px;
+  color: #fff;
+  font-family: Gagalin-Regular;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: 0 0;
+  left: 50%;
+  top: 100%;
+  padding-left: 20px; }
+
+.menu-list_item {
+  height: 100%; }
+  .menu-list_item.active .menu-list_trigger-text {
+    color: #f9a644; }
+
+.menu-list_content {
+  height: 100%;
+  float: left;
+  background: rgba(47, 50, 52, 0.93);
+  width: 0;
+  overflow: hidden; }
+
+.menu-list_text {
+  font-family: Ubuntu-Light;
+  font-size: rem(14px);
+  color: #fff;
+  padding: rem(60px) rem(30px);
+  width: 100%;
+  line-height: 1.8;
+  display: none; }
 
 /*# sourceMappingURL=common.css.map */

@@ -1,0 +1,75 @@
+$caption_font: Gagalin-Regular;
+$main_font: Ubuntu-Light;
+
+.menu {
+    background: url(/images/background/menu_background.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.caption--position_top {
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+
+.menu-list {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+    display: flex;
+}
+
+.menu-list_trigger {
+	width: 100px;
+	display: block;
+	height: 100%;
+	float: left;
+	@include cover;
+	text-decoration: none;
+  position: relative;
+}
+
+.menu-list_trigger-text {
+	font-size: 50px;
+	color: #fff;
+	font-family: $caption_font;
+	text-align: center;
+	white-space: nowrap;
+    position: absolute;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: 0 0;
+    left: 50%;
+    top: 100%;
+    padding-left: 20px;
+}
+
+.menu-list_item {
+	height: 100%;
+
+	&.active {
+		.menu-list_trigger-text {
+			color: $yellow;
+		}
+	}
+}
+
+.menu-list_content {
+	height: 100%;
+	float: left;
+	background: rgba(#2f3234, .93);
+	width: 0;
+	overflow: hidden;
+}
+
+.menu-list_text {
+	font-family: $main_font;
+	font-size: rem(14px);
+	color: #fff;
+	padding: rem(60px) rem(30px);
+	width: 100%;
+    line-height: 1.8;
+    display: none;
+}
+
