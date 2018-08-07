@@ -13,10 +13,10 @@ $another_caption_font: Lifehack Medium;
 }
 
 .the-best__content__item {
-    padding-top: 120px;
+    padding-top: 7.5rem;
     margin-right: 3.65%;
-    -ms-flex-preferred-size: 280px;
-    flex-basis: 280px;
+    -ms-flex-preferred-size: 17.5rem;
+    flex-basis: 17.5rem;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -42,7 +42,7 @@ $another_caption_font: Lifehack Medium;
 
 .the-best__img img {
     width: 40%;
-    padding: 0px 80px 0px 80px;
+    padding: 0rem 13rem 0rem 13rem;
 }
 
 .the-best__title {
@@ -53,5 +53,4 @@ $another_caption_font: Lifehack Medium;
 .the-best__text {
     text-align: center;
     font-family: $main_font;
-    font-size: 14px;
 }

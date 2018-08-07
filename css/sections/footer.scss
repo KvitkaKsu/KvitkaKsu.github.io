@@ -13,8 +13,8 @@ $main_font: Ubuntu-Light;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px 0;
-    height: 60px;
+    padding: 0.6rem 0;
+    height: 3.75rem;
 }
 
   .footer__container {
@@ -29,14 +29,14 @@ $main_font: Ubuntu-Light;
 
 .footer__address {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-family: $main_font;
-  padding-bottom: 10px;
+  padding-bottom: 0.6rem;
 }
 
 .footer__phone {
   color: $red;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-family: $menu_font;
 }

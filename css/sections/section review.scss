@@ -38,17 +38,17 @@ $main_font: Ubuntu-Light;
 
     span {
         font-weight: bold;
-        padding: 25px;
+        padding: 1.56rem;
         line-height: 4.5;
     }
 
     p {
-        padding: 25px;
+        padding: 1.56rem;
     }
 }
 
 .form-btn {
-    margin-top: 10px;
+    margin-top: 0.6rem;
     display: flex;
     align-items: center;
 
@@ -61,7 +61,7 @@ $main_font: Ubuntu-Light;
 }
 
 .btn-review {
-    margin-left: 25px;
+    margin-left: 1.56rem;
 
     &:hover {
         background-color: #1f2122;

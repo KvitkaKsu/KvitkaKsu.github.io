@@ -15,10 +15,10 @@ $main_font: Ubuntu-Light;
     right: 0;
     width: 50%;
     background: rgba(#2f3234, .93);
-    padding-left: 50px;
+    padding-left: 3rem;
     display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 12.5rem;
   }
 
   .team-profile {
@@ -40,17 +40,17 @@ $main_font: Ubuntu-Light;
       border: 9px solid transparent;
       border-top-color: $yellow;
       border-bottom-width: 0px;
-      margin-right: 10px; 
+      margin-right: 0.6rem; 
     }
   }
 
   li.team-acco__item {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
   
   .team-acco__content {
     display: flex;
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .team-acco__pic {
@@ -63,12 +63,12 @@ $main_font: Ubuntu-Light;
   
   .team-acco__text {
     color: #fff;
-    padding: 20px;
-    margin-left: 120px;
+    padding: 1.25rem;
+    margin-left: 7.5rem;
 
     &-title {
       font-family: $menu_font;
-      padding-bottom: 10px;
+      padding-bottom: 0.6rem;
     }
 
     &-content {
@@ -91,6 +91,6 @@ $main_font: Ubuntu-Light;
   
     .team-acco__content {
       display: block;
-      padding: 20px;
+      padding: 1.25rem;
     }
   }

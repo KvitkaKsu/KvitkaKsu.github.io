@@ -17,6 +17,7 @@ $another_caption_font: Lifehack Medium;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .header-menu {
@@ -25,7 +26,7 @@ $another_caption_font: Lifehack Medium;
 }
 
 .nav {
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .nav-list {
@@ -45,18 +46,18 @@ $another_caption_font: Lifehack Medium;
 
     &:before {
         content: ""; 
-        width: 4px;
-        height: 4px;
+        width: 0.25rem;
+        height: 0.25rem;
         border-radius: 50%;
         background-color: #fff; 
         display: block;
-        margin: 0 10px;
+        margin: 0 0.6rem;
 
     }
 }
 
 .nav-link {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #fff;
     text-decoration: none;
     font-family: $menu_font;
@@ -64,19 +65,19 @@ $another_caption_font: Lifehack Medium;
 }
 
 .btn {
-    padding: 13px 16px;
+    padding: 0.8rem 1rem;
     color: #fff;
     background-color: $red;
-    border-radius: 7px;
+    border-radius: 0.43rem;
     text-decoration: none;
     font-family: $menu_font;
     text-transform: uppercase;
 }
 
 .caption {
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-family: $caption_font;
 
     &--color {
@@ -97,7 +98,7 @@ $another_caption_font: Lifehack Medium;
 
 .another-caption {
     font-family: $another_caption_font;
-    font-size: 65px;
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -110,7 +111,7 @@ $another_caption_font: Lifehack Medium;
 .one__content__img {
     background: url(/images/burger_main.png) center center no-repeat;
     width: 100%;
-    height: 424px;
+    height: 26.5rem;
 }
 
 .one__content__caption {
@@ -121,6 +122,6 @@ $another_caption_font: Lifehack Medium;
     align-self: center;
 
     img {
-        width: 50px;
+        width: 3.2rem;
     }
 }

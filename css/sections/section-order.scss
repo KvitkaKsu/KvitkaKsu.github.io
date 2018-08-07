@@ -15,12 +15,12 @@ $main_font: Ubuntu-Light;
 
 .form__content {
     width: 47%;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .form__content__comm {
     width: 47%;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .form__content__comm input.form__input {
@@ -32,34 +32,34 @@ $main_font: Ubuntu-Light;
     justify-content: flex-start;
     color: #fff;
     font-family: $main_font;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 
 .checkbox-margin {
-    margin-right: 30px;
+    margin-right: 1.8rem;
 }
 
 .form__block-title {
     color: #fff;
     font-family: $main_font;
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
 }
   
 .form__input {
     border: none;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
     width: 100%;
 }
   
 .form__row {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
   
 .form__block {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     
     &:last-child {
       margin-right: 0;

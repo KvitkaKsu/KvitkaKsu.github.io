@@ -1,8 +1,9 @@
+//base
 @import 'fonts.scss';
 @import 'normalize.scss';
 @import 'layouts.scss';
 
-
+//sections
 @import 'sections/section-main.scss';
 @import 'sections/section-the-best.scss';
 @import 'sections/section review.scss';
@@ -11,3 +12,9 @@
 @import 'sections/section-menu.scss';
 @import 'sections/footer.scss';
 
+//media
+@import 'misc/media.scss';
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
