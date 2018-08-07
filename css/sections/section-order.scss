@@ -1,5 +1,3 @@
-$main_font: Ubuntu-Light;
-
 .order {
     background: url('/images/background/bg_order.jpg') center center no-repeat;
     background-size: cover;
@@ -11,16 +9,29 @@ $main_font: Ubuntu-Light;
 .form__elem {
     display: flex;
     flex-wrap: wrap;
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .form__content {
     width: 47%;
     padding: 0.6rem;
+
+    @include tablets {
+        width: 80%;
+    }
 }
 
 .form__content__comm {
     width: 47%;
     padding: 0.6rem;
+
+    @include tablets {
+        width: 80%;
+    }
 }
 
 .form__content__comm input.form__input {

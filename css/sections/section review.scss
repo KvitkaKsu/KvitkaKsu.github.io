@@ -1,5 +1,3 @@
-$main_font: Ubuntu-Light;
-
 .list-review {
     display: flex;
     height: 100%;
@@ -19,6 +17,11 @@ $main_font: Ubuntu-Light;
         .reviev-text-hover {
           opacity: 1;
         }
+      }
+
+      @include tablets {
+        width: 50%;
+        height: 25%;
       }
 } 
 

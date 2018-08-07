@@ -1,23 +1,4 @@
-/*variables*/
 
-$main_font: Ubuntu-Light;
-$font_one: Lifehack Medium;
-$font_two: Ubuntu-Medium;
-$caption_font: Gagalin-Regular;
-
-//colors
-$red: #e35028;
-
-/*end variables*/
-
-/*mics*/
-@mixin cover(){
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
-/*end mics*/
 html {
     font-size: 16px;
 }
@@ -25,12 +6,12 @@ html {
 html, body {
     height: 100%;
 
-    @include tablets {
-        font-size: 0.93rem;
-    }
+   @include tablets {
+       font-size: 0.9rem;
+   }
 
-    @include phones {
-        font-size: 0.875rem;
+   @include phones {
+    font-size: 0.875rem;
     }
 }
 
@@ -45,13 +26,12 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 95%;
     max-width: 58.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 0 2%;
 }
 
 .wrapper {

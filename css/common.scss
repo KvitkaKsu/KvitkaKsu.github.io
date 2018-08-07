@@ -1,3 +1,38 @@
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//variables
+$main_font: Ubuntu-Light;
+$font_one: Lifehack Medium;
+$font_two: Ubuntu-Medium;
+$caption_font: Gagalin-Regular;
+$another_caption_font: Lifehack Medium;
+$menu_font: Ubuntu-Medium;
+
+//colors
+$red: #e35028;
+$yellow: #f9a644;
+
+//mixin
+@mixin cover(){
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+@mixin tablets {
+    @media screen and (max-width: $tablets) {
+        @content;
+    }
+}
+
+@mixin phones {
+    @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+
 //base
 @import 'fonts.scss';
 @import 'normalize.scss';
@@ -15,6 +50,4 @@
 //media
 @import 'misc/media.scss';
 
-//breakpoints
-$tablets: 768px;
-$phones: 480px;
+
