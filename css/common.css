@@ -296,6 +296,10 @@ li.fixed-nav-item:before {
   justify-content: space-between;
   margin-top: 1rem; }
 
+.logo_svg {
+  width: 7rem;
+  height: 5rem; }
+
 .header-menu {
   display: flex;
   align-items: center; }
@@ -420,6 +424,10 @@ li.fixed-nav-item:before {
   .arrow-scroll img {
     width: 3.2rem; }
 
+.arrow {
+  width: 2rem;
+  height: 2rem; }
+
 @media screen and (max-width: 480px) {
   .fixed-nav-navigation {
     display: none; } }
@@ -437,26 +445,35 @@ li.fixed-nav-item:before {
       flex-direction: column; } }
 
 .the-best__content__item {
-  padding-top: 7.5rem;
   margin-right: 3.65%;
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1; }
-  .the-best__content__item:nth-child(1) {
-    background-image: url(/images/meat.svg);
-    background-repeat: no-repeat;
-    background-position: top center; }
-  .the-best__content__item:nth-child(2) {
-    background-image: url(/images/hand.svg);
-    background-repeat: no-repeat;
-    background-position: top center; }
-  .the-best__content__item:nth-child(3) {
-    background-image: url(/images/natural.svg);
-    background-repeat: no-repeat;
-    background-position: top center; }
+  -ms-flex-positive: 1;
+  width: 50rem;
+    /*&:nth-child(1) {
+        background-image: url(/images/meat.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
 
-.the-best__img img {
-  width: 40%;
-  padding: 0rem 13rem 0rem 13rem; }
+    &:nth-child(2) {
+        background-image: url(/images/hand.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    &:nth-child(3) {
+        background-image: url(/images/natural.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }*/ }
+
+.the-best-img {
+  display: flex;
+  justify-content: center; }
+  .the-best-img_svg {
+    width: 6rem;
+    height: 6rem;
+    padding-bottom: 15px; }
 
 .the-best__title {
   text-align: center;
@@ -765,5 +782,19 @@ li.team-acco__item {
   text-decoration: none;
   font-size: 0.8rem;
   font-family: Ubuntu-Medium; }
+
+.socials__item {
+  padding-right: 15px; }
+
+.footer__item_right {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1%; }
+
+.socials {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=common.css.map */

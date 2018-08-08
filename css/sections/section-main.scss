@@ -14,6 +14,11 @@
     margin-top: 1rem;
 }
 
+.logo_svg {
+    width: 7rem;
+    height: 5rem;
+}
+
 .header-menu {
     display: flex;
     align-items: center;
@@ -183,6 +188,11 @@
     img {
         width: 3.2rem;
     }
+}
+
+.arrow {
+    width: 2rem;
+    height: 2rem;
 }
 
 .fixed-nav-navigation {
