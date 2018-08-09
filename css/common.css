@@ -221,6 +221,9 @@ body {
   position: relative;
   color: #000000; }
 
+.section {
+  min-height: 650px; }
+
 .container {
   margin: 0 auto;
   width: 95%;
@@ -381,9 +384,16 @@ li.fixed-nav-item:before {
   .caption--color_yellow {
     color: #f9a644; }
   .caption--color_white {
-    color: white; }
+    color: white;
+    line-height: 1; }
+  .caption--color_red {
+    color: #e35028;
+    font-size: 5rem; }
   .caption--align_center {
     text-align: center; }
+
+.ryble {
+  font-size: 1.75rem; }
 
 .another-caption {
   font-family: Lifehack Medium;
@@ -795,5 +805,56 @@ li.team-acco__item {
   list-style: none;
   padding: 0;
   margin: 0; }
+
+.bg-slider {
+  background: linear-gradient(to bottom, #ffa73d 15%, #ff7c00 48%, #ff7c00 26%, #ff7f04 4%, #ffb76b 100%);
+  background-size: cover;
+  display: flex; }
+
+.slider-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .slider-content .left {
+    background-image: url(/images/bg_slider/black_burger.png);
+    background-position: center;
+    background-size: cover;
+    width: 32rem;
+    height: 20.5rem; }
+  .slider-content .right {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    margin: 20px; }
+    .slider-content .right__text-content {
+      color: white;
+      font-family: Ubuntu-Light;
+      line-height: 1.7; }
+    .slider-content .right__currency-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; }
+
+.slider-arrow {
+  display: flex;
+  flex: 0 1 8%;
+  align-items: center;
+  justify-content: center; }
+
+.arrow_prev {
+  background: url(/images/icons/prew.svg);
+  width: 2rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
+.arrow_next {
+  background: url(/images/icons/next.svg);
+  width: 2rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  cursor: pointer; }
 
 /*# sourceMappingURL=common.css.map */

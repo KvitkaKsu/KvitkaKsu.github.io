@@ -1,0 +1,63 @@
+.bg-slider {
+    background: linear-gradient(to bottom, #ffa73d 15%, #ff7c00 48%, #ff7c00 26%, #ff7f04 4%, #ffb76b 100%);
+    background-size: cover;
+    display: flex;
+}
+
+.slider-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .left {
+        background-image: url(/images/bg_slider/black_burger.png);
+        background-position: center;
+        background-size: cover;
+        width: 32rem;
+        height: 20.5rem;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 32rem;
+        margin: 20px;
+
+        &__text-content {
+            color: white;
+            font-family: $main_font;
+            line-height: 1.7;
+        }
+
+        &__currency-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+
+.slider-arrow {
+    display: flex;
+    flex: 0 1 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow_prev {
+    background: url(/images/icons/prew.svg);
+    width: 2rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.arrow_next {
+    background: url(/images/icons/next.svg);
+    width: 2rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

@@ -130,6 +130,11 @@
         }
         &_white {
             color: white;
+            line-height: 1;
+        }
+        &_red {
+            color: $red;
+            font-size: 5rem;
         }
     }
 
@@ -138,6 +143,10 @@
             text-align: center;
         }
     }
+}
+
+.ryble {
+    font-size: 1.75rem;
 }
 
 .another-caption {
