@@ -815,7 +815,8 @@ li.team-acco__item {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   .slider-content .left {
     background-image: url(/images/bg_slider/black_burger.png);
     background-position: center;
