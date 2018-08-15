@@ -11,15 +11,19 @@
     align-items: center;
     justify-content: center;
 
-    .left {
+    &__left {
         background-image: url(/images/bg_slider/black_burger.png);
         background-position: center;
-        background-size: cover;
+        background-repeat: no-repeat;
         width: 32rem;
-        height: 20.5rem;
+        height: 30rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
-    .right {
+    &__right {
         display: flex;
         flex-direction: column;
         width: 32rem;
@@ -38,6 +42,48 @@
             justify-content: space-between;
         }
     }
+
+    &__title {
+        text-align: center;
+        font-family: $caption_font;
+        font-size: 1.3rem;
+        color: #fff;
+
+        &__kkal-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding-top: 40px;
+        }
+
+        &__kkal-title:after {
+            content: "ккал";
+            padding-top: 15px;
+            display: block;
+        }
+    }
+
+    &__into {
+        position: relative;
+        opacity: .5;
+        width: 5rem;
+        height: 5rem;
+        background-color: #e45028;
+        padding: 10px;
+
+        &:hover {
+            opacity: 10;
+        }
+	}
+
+	&__kkal {
+        position: relative;
+        opacity: .5;
+        width: 5rem;
+        height: 5rem;
+	}
 }
 
 .slider-arrow {
@@ -62,3 +108,5 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+

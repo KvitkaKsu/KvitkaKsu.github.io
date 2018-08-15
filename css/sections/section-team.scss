@@ -15,7 +15,7 @@
     padding-left: 3rem;
     display: flex;
     flex-direction: column;
-    padding-top: 12.5rem;
+    justify-content: center;
 
     @include tablets {
       width: 100%;

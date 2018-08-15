@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"> 
 	<link href="/css/common.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="/js/slider.js"></script>
 </head>
 <body>
@@ -32,35 +33,62 @@
 					</div>
 					<div class="header-button">
 						<a href="#" class="btn">Заказать</a>
-						<a class="mobile-menu" href="">
+						<button class="mobile-menu">
 							<div class="mobile-menu__bar"></div>
-						</a>
+						</button>
 					</div>
 				</header>
 				<div class="one__content">
 					<div class="one__content__img"></div>
 					<div class="one__content__caption">
-						<h1 class="caption caption--color_yellow">Мы делаем
+						<h2 class="caption caption--color_yellow">Мы делаем
 							<span class="another-caption">натуральные бургеры</span>
-						</h1>
+						</h2>
 					</div>
 				</div>
 				<div class="arrow-scroll">
 					<a href="#">
-						<svg class="arrow">
+						<svg class="arrow" alt="Нижний скролл">
 							<use xlink:href="/images/sprite.svg#arrow-scroll"></use>
 						</svg>
 					</a>
 				</div>
 			</div>
 		</section>
+
+<!--nav-mobile-->
+<div class="mob-menu">
+	<header class="header-mobile">
+		<div class="logo">
+			<svg class="logo_svg">
+				<use xlink:href="/images/sprite.svg#logo"></use>
+			</svg>
+		</div>
+		<div class="close-button">
+			<img src="/images/icons/close-button.png">
+		</div>
+	</header>
+	<nav class="nav-mobile">
+		<ul class="nav-mobile__list">
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">О нас</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Бургеры</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Команда</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Меню</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Отзывы</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Как мы работаем</a></li>
+			<li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Контакты</a></li>
+			</ul>
+	</nav>
+</div>
+<!--nav-mobile-->
+
 		<section class="section the-best">
 			<div class="container">
-				<h1 class="caption caption--align_center">Мы лучшие</h1>
+				<h2 class="caption caption--align_center">Мы лучшие</h2>
 				<ul class="the-best__content">
 					<li class="the-best__content__item">
 						<div class="the-best-img">
-							<svg class="the-best-img_svg">
+							<svg class="the-best-img_svg" alt="Мы лучшие - мясо">
 								<use xlink:href="/images/sprite.svg#meat"></use>
 							</svg>
 						</div>
@@ -71,7 +99,7 @@
 					</li>
 					<li class="the-best__content__item">
 						<div class="the-best-img">
-							<svg class="the-best-img_svg">
+							<svg class="the-best-img_svg" alt="Мы лучшие - рука">
 								<use xlink:href="/images/sprite.svg#hand"></use>
 							</svg>
 						</div>
@@ -82,7 +110,7 @@
 					</li>
 					<li class="the-best__content__item">
 							<div class="the-best-img">
-									<svg class="the-best-img_svg">
+									<svg class="the-best-img_svg" alt="Мы лучшие - салат">
 										<use xlink:href="/images/sprite.svg#natural"></use>
 									</svg>
 								</div>
@@ -97,13 +125,13 @@
 		<section class="section team">
 			<div class="team-container">
 				<div class="team-profile">
-				<div class="caption caption--align_center caption--color_yellow">Команда</div>
+				<h2 class="caption caption--align_center caption--color_yellow">Команда</h2>
 				<ul class="team-acco">
 				  <li class="team-acco__item">
 					<a href="#" class="team-acco__trigger">Дэниел Редклифф</a>
 					<div class="team-acco__content">
 					  <div class="team-acco__pic">
-							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="">
+							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="Оператор по бургерам">
 					  </div>
 					  <div class="team-acco__text">
 							<div class="team-acco__text-title">Оператор</div>
@@ -119,7 +147,7 @@
 					<a href="#" class="team-acco__trigger">Ричард Джеймс</a>
 					<div class="team-acco__content">
 					  <div class="team-acco__pic">
-							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="">
+							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="Оператор по бургерам">
 					  </div>
 					  <div class="team-acco__text">
 							<div class="team-acco__text-title">Оператор</div>
@@ -135,7 +163,7 @@
 					<a href="#" class="team-acco__trigger">Джейк Финн</a>
 					<div class="team-acco__content">
 					  <div class="team-acco__pic">
-							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="">
+							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="Оператор по бургерам">
 					  </div>
 					  <div class="team-acco__text">
 							<div class="team-acco__text-title">Оператор</div>
@@ -151,7 +179,7 @@
 					<a href="#" class="team-acco__trigger">Николай Иванов</a>
 					<div class="team-acco__content">
 					  <div class="team-acco__pic">
-							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="">
+							<img class="team-acco__pic-img" src="/images/team/team_face.png" alt="Оператор по бургерам">
 					  </div>
 					  <div class="team-acco__text">
 							<div class="team-acco__text-title">Оператор</div>
@@ -172,18 +200,32 @@
 					<div class="arrow_prev"></div>
 				</div>
 					<div class="slider-content">
-						<div class="left">
-							<div class="into"></div>
-							<div class="ccal"></div>
+						<div class="slider-content__left">
+							<div class="slider-content__into">
+								<svg class="slider-content__img" alt="Состав" viewBox="0 0 49 35">
+									<use xlink:href="/images/sprite.svg#buns"></use>
+								</svg>
+								<div class="slider-content__title">
+									<span>Состав</span>
+								</div>
+							</div>
+							<div class="slider-content__kkal">
+								<svg class="slider-content__img" alt="Калории" viewBox="0 0 60 60">
+									<use xlink:href="/images/sprite.svg#kkal"></use>
+								</svg>
+								<div class="slider-content__title">
+										<span class="slider-content__title__kkal-title">1200</span>
+								</div>
+							</div>
 						</div>
-						<div class="right">
+						<div class="slider-content__right">
 							<div class="caption caption--color_white">Dark beef burger</div>
-							<div class="right__text-content">
+							<div class="slider-content__right__text-content">
 								<p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь,
 									двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.</p>
 							</div>
-							<div class="right__currency-content">
-								<div class="caption caption--color_red caption--price">500 <span class="ryble">рублей</span></div>
+							<div class="slider-content__right__currency-content">
+								<h2 class="caption caption--color_red caption--price">500 <span class="ryble">рублей</span></h2>
 								<a href="#" class="btn">Заказать</a>
 							</div>
 						</div>
@@ -316,9 +358,9 @@
 		</section>
 		<section class="section order center-align">
 			<div class="container">
-				<h1 class="caption caption--color_yellow caption--align_center">
+				<h2 class="caption caption--color_yellow caption--align_center">
 					Закажите доставку
-				</h1>
+				</h2>
 				<div class="form">
 					<form action="" class="form__elem">
 							<div class="form__content">
@@ -381,7 +423,7 @@
 									</div>
 								</div>
 								<div class="form-btn">
-									<input type="button" class="btn" value="Заказать">
+									<button class="btn">Заказать</button>
 									<a href="#">Очистить</a>
 								</div>
 							</div>

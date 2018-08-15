@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Ubuntu-Light";
   src: url("/fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
@@ -264,6 +265,9 @@ p {
 input[type="button"] {
   border: none;
   cursor: pointer; }
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+  background-color: transparent; }
 
 button {
   border: none; }
@@ -623,7 +627,7 @@ li.fixed-nav-item:before {
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
-  padding-top: 12.5rem; }
+  justify-content: center; }
   @media screen and (max-width: 768px) {
     .team-container {
       width: 100%; } }
@@ -817,26 +821,60 @@ li.team-acco__item {
   flex-direction: row;
   align-items: center;
   justify-content: center; }
-  .slider-content .left {
+  .slider-content__left {
     background-image: url(/images/bg_slider/black_burger.png);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
     width: 32rem;
-    height: 20.5rem; }
-  .slider-content .right {
+    height: 30rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between; }
+  .slider-content__right {
     display: flex;
     flex-direction: column;
     width: 32rem;
     margin: 20px; }
-    .slider-content .right__text-content {
+    .slider-content__right__text-content {
       color: white;
       font-family: Ubuntu-Light;
       line-height: 1.7; }
-    .slider-content .right__currency-content {
+    .slider-content__right__currency-content {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between; }
+  .slider-content__title {
+    text-align: center;
+    font-family: Gagalin-Regular;
+    font-size: 1.3rem;
+    color: #fff; }
+    .slider-content__title__kkal-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding-top: 40px; }
+    .slider-content__title__kkal-title:after {
+      content: "ккал";
+      padding-top: 15px;
+      display: block; }
+  .slider-content__into {
+    position: relative;
+    opacity: .5;
+    width: 5rem;
+    height: 5rem;
+    background-color: #e45028;
+    padding: 10px; }
+    .slider-content__into:hover {
+      opacity: 10; }
+  .slider-content__kkal {
+    position: relative;
+    opacity: .5;
+    width: 5rem;
+    height: 5rem; }
 
 .slider-arrow {
   display: flex;
@@ -857,5 +895,55 @@ li.team-acco__item {
   height: 3rem;
   background-repeat: no-repeat;
   cursor: pointer; }
+
+.mob-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #2f3234;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none; }
+
+.header-mobile {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.close-button {
+  cursor: pointer; }
+
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+  .nav-mobile__list {
+    text-align: center; }
+  .nav-mobile__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .nav-mobile__item:after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      display: block;
+      border-radius: 50%; }
+  .nav-mobile__link {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Ubuntu-Medium;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px; }
 
 /*# sourceMappingURL=common.css.map */
