@@ -12,6 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 
     &__left {
         display: flex;
@@ -110,6 +111,12 @@
         width: 5rem;
         height: 5rem;
     }
+}
+
+.slider-content--showed {
+    display: flex;
+    left: 0;
+    opacity: 1;
 }
 
 .burgers_img {

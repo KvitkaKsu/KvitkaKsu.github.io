@@ -977,6 +977,11 @@ li.team-acco__item {
     width: 5rem;
     height: 5rem; }
 
+.slider-content--showed {
+  display: flex;
+  left: 0;
+  opacity: 1; }
+
 .burgers_img {
   background-size: contain;
   background-position: center;
