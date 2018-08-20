@@ -24,10 +24,6 @@ body {
     color: #000000;
 }
 
-.section {
-    min-height: 650px;
-}
-
 .container {
     margin: 0 auto;
     width: 95%;
@@ -72,6 +68,10 @@ p {
 .section {
     height: 100vh;
     min-height: 40.625rem;
+
+    @include phones {
+        min-height: 800px;
+    }
 }
 
 input[type="button"] {

@@ -170,6 +170,7 @@
     background: url(/images/burger_main.png) center center no-repeat;
     width: 32rem;
     height: 26.5rem;
+    background-size: contain;
 
     @include phones {
         width: 100%;
