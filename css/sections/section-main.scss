@@ -75,6 +75,7 @@
     text-decoration: none;
     font-family: $menu_font;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .header-button {
@@ -131,6 +132,10 @@
         &_white {
             color: white;
             line-height: 1;
+
+            @include phones {
+                text-align: center;
+             }
         }
         &_red {
             color: $red;

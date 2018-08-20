@@ -38,16 +38,37 @@
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    @include phones {
+        align-items: center;
+       }
+
+    @include tablets {
+        text-align: center;
+        align-items: center;
+    }
 
     span {
         font-weight: bold;
-        padding: 1.56rem;
-        line-height: 4.5;
-    }
+        padding: 1rem;
+        line-height: 1;
 
-    p {
-        padding: 1.56rem;
+        @include phones {
+           font-family: $caption_font;
+           font-size: 1.5rem;
+        }
     }
+}
+
+.review-text p {
+    padding: 1.56rem;
+
+    @include phones {
+       display: none;
+      }
 }
 
 .form-btn {
@@ -65,8 +86,13 @@
 
 .btn-review {
     margin-left: 1.56rem;
+    width: 8rem;
 
     &:hover {
         background-color: #1f2122;
     }
+
+    @include phones {
+        margin-left: 0;
+       }
 }

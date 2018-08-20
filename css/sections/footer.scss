@@ -12,16 +12,32 @@
     right: 0;
     padding: 0.6rem 0;
     height: 3.75rem;
+
+    @include phones {
+      height: 6rem;
+    }
 }
 
   .footer__container {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @include phones {
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 .footer__item {
   width: 50%;
+
+  @include phones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+  }  
 }
 
 .footer__address {
@@ -29,6 +45,10 @@
   font-size: 0.8rem;
   font-family: $main_font;
   padding-bottom: 0.6rem;
+
+  @include phones {
+    text-align: center;
+  }
 }
 
 .footer__phone {
@@ -36,16 +56,29 @@
   text-decoration: none;
   font-size: 0.8rem;
   font-family: $menu_font;
+
+  &:before {
+    content: url(/images/icons/phone-icon.png);
+    padding-right: 10px;
+  }
 }
 
 .socials__item {
   padding-right: 15px;
+
+  @include phones {
+    justify-content: center;
+  }
 }
 
 .footer__item_right {
   display: flex;
   justify-content: flex-end;
   padding-top: 1%;
+
+  @include phones {
+    justify-content: center;
+  }
 }
 
 .socials {
@@ -53,4 +86,13 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.socials__link-icon {
+  fill: #fff;
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 1;
+  }
 }

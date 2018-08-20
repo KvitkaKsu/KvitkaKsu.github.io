@@ -8,6 +8,10 @@
 	position: relative;
 	top: 10%;
 	left: 10%;
+
+	@include phones {
+		text-align: left;
+	  }
 }
 
 .menu-list {
