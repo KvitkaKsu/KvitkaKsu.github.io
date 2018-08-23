@@ -260,7 +260,7 @@ p {
   min-height: 40.625rem; }
   @media screen and (max-width: 480px) {
     .section {
-      min-height: 800px; } }
+      min-height: 40.625rem; } }
 
 input[type="button"] {
   border: none;
@@ -399,6 +399,9 @@ li.fixed-nav-item:before {
     font-size: 5rem; }
   .caption--align_center {
     text-align: center; }
+    @media screen and (max-width: 480px) {
+      .caption--align_center {
+        font-size: 3.62rem; } }
 
 .ryble {
   font-size: 1.75rem; }
@@ -564,12 +567,19 @@ li.fixed-nav-item:before {
       .reviev-text-hover span {
         font-family: Gagalin-Regular;
         font-size: 1.5rem; } }
+    @media screen and (max-width: 768px) {
+      .reviev-text-hover span {
+        padding: 0.6rem; } }
 
 .review-text p {
   padding: 1.56rem; }
   @media screen and (max-width: 480px) {
     .review-text p {
       display: none; } }
+  @media screen and (max-width: 768px) {
+    .review-text p {
+      padding: 0.7rem;
+      font-size: 12px; } }
 
 .form-btn {
   margin-top: 0.6rem;
@@ -587,6 +597,9 @@ li.fixed-nav-item:before {
   .btn-review:hover {
     background-color: #1f2122; }
   @media screen and (max-width: 480px) {
+    .btn-review {
+      margin-left: 0; } }
+  @media screen and (max-width: 768px) {
     .btn-review {
       margin-left: 0; } }
 
@@ -646,6 +659,9 @@ li.fixed-nav-item:before {
 .form__row {
   display: flex;
   margin-bottom: 1.25rem; }
+  @media screen and (max-width: 480px) {
+    .form__row {
+      margin-bottom: 1rem; } }
 
 .form__block {
   flex: 1;
@@ -1076,5 +1092,11 @@ li.team-acco__item {
     text-transform: uppercase;
     text-align: center;
     padding: 10px; }
+  @media screen and (max-width: 480px) {
+    .nav-mobile {
+      justify-content: flex-start; } }
+  @media screen and (max-width: 768px) {
+    .nav-mobile {
+      justify-content: flex-start; } }
 
 /*# sourceMappingURL=common.css.map */

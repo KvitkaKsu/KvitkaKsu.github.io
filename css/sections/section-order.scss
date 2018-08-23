@@ -66,6 +66,10 @@
 .form__row {
     display: flex;
     margin-bottom: 1.25rem;
+
+    @include phones {
+        margin-bottom: 1rem;
+     }
 }
   
 .form__block {

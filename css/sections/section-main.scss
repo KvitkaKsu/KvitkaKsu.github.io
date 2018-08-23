@@ -146,6 +146,10 @@
     &--align {
         &_center {
             text-align: center;
+
+            @include phones {
+                font-size: 3.62rem;
+             }
         }
     }
 }

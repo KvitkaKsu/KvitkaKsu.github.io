@@ -60,6 +60,10 @@
            font-family: $caption_font;
            font-size: 1.5rem;
         }
+
+        @include tablets {
+            padding: 0.6rem;
+        }
     }
 }
 
@@ -68,7 +72,12 @@
 
     @include phones {
        display: none;
-      }
+    }
+
+      @include tablets {
+        padding: 0.7rem;
+        font-size: 12px;
+    }
 }
 
 .form-btn {
@@ -95,4 +104,8 @@
     @include phones {
         margin-left: 0;
        }
+
+       @include tablets {
+        margin-left: 0;
+    }
 }
