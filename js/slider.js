@@ -19,13 +19,6 @@
 
     /*team*/
 
-    var $team_item = $('.team-acco__item');
-    
-    $team_item.on('click', function team_acco() {
-        var item = $(this);
-        item.toggleClass('team-acco__item--active')
-            .siblings()
-            .removeClass('team-acco__item--active')
-    })
+   
 
     /*team*/

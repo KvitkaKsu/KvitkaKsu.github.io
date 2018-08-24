@@ -10,3 +10,9 @@
     }
 }
 
+@mixin little_phones {
+    @media screen and (max-width: $little_phone) {
+        @content;
+    }
+}
+

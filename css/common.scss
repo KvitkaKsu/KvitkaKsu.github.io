@@ -1,6 +1,7 @@
 //breakpoints
 $tablets: 768px;
 $phones: 480px;
+$little_phones: 400px;
 
 //variables
 $main_font: Ubuntu-Light;
@@ -29,6 +30,12 @@ $yellow: #f9a644;
 
 @mixin phones {
     @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+
+@mixin little_phones {
+    @media screen and (max-width: $little_phones) {
         @content;
     }
 }
