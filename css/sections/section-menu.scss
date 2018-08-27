@@ -44,7 +44,12 @@
     transform-origin: 0 0;
     left: 50%;
     top: 100%;
-    padding-left: 3rem;
+	padding-left: 3rem;
+	
+	@include little_phones {
+		font-size: 2rem;
+		left: 20%;
+	}
 }
 
 .menu-list_item {
@@ -54,6 +59,10 @@
 		.menu-list_trigger-text {
 			color: $yellow;
 		}
+	}
+
+	@include little_phones {
+		width: 3rem;
 	}
 }
 

@@ -813,11 +813,18 @@ li.team-acco__item {
   left: 50%;
   top: 100%;
   padding-left: 3rem; }
+  @media screen and (max-width: 400px) {
+    .menu-list_trigger-text {
+      font-size: 2rem;
+      left: 20%; } }
 
 .menu-list_item {
   height: 100%; }
   .menu-list_item.active .menu-list_trigger-text {
     color: #f9a644; }
+  @media screen and (max-width: 400px) {
+    .menu-list_item {
+      width: 3rem; } }
 
 .menu-list_content {
   height: 100%;

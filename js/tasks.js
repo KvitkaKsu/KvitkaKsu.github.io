@@ -75,7 +75,7 @@
 
     //////
     function hello(human) {
-    var result = 'Привет,' + 'меня зовут' + human.name + human.lastname + 'и мне' + human.age + 'лет';
+    var result = 'Привет, ' + 'меня зовут ' + human.name + ' ' + human.lastname + ' и мне ' + human.age + ' лет';
     return result;
     }
     var obj = {name: 'Kseniya', lastname: 'Belkova', age: '26'};
