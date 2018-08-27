@@ -932,7 +932,8 @@ li.team-acco__item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
   .slider-content__left {
     display: flex;
     align-items: flex-start;
